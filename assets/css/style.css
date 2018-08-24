@@ -1,0 +1,62 @@
+body {
+    background-image: url(/assets/images/background2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header {
+    text-align: center;
+    color: #7f5d56;
+    -webkit-text-stroke: 2px black;
+    position: relative;
+    background: -webkit-linear-gradient( limegreen, yellow);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+.card bg-light mb-3 {
+    display: block;
+}
+
+header {
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 75px;
+}
+
+#pick {
+    font-family: 'Creepster', cursive;
+    font-size: 50px;
+    -webkit-text-stroke: 2px rgb(107, 5, 5);
+    background: -webkit-linear-gradient( red, rgb(107, 5, 5));
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.text-center {
+    position: relative;
+}
+
+#name{
+    position: absolute;
+    z-index: 1;
+    bottom: -60px;
+    left: 0px;
+    font-style: italic;
+    font-family: 'Creepster', cursive;
+    color: red;
+    -webkit-text-stroke: 2px rgb(107, 5, 5);
+    font-size: 40px;
+}
+
+#hp, #hp1, #hp2, #hp3 {
+    right: -130px;
+    bottom: -30px;
+    color: gold;
+
+}
+.col-lg-12 {
+    text-align: center;
+}
+
+ 
